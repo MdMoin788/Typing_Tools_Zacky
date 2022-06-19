@@ -1,0 +1,107 @@
+.Result {
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(41, 45, 62);
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.navbarHome {
+  width: 90%;
+  height: 30px;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  justify-content: right;
+  background-color: rgb(41, 45, 62);
+  color: white;
+  align-items: center;
+  font-size: 20px;
+  gap: 50px;
+}
+.InputContents {
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(41, 45, 62);
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.InputContents2{
+  width: 80%;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(41, 45, 62);
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.InputContents3 {
+  width: 98%;
+  height: 94%;
+  border: 2px solid white;
+  margin: auto;
+  overflow-y: scroll;
+  
+  background-color: rgb(41, 45, 62);
+  color: white;
+  font-size: 26px;
+}
+.InputContentsInput {
+  width: 80%;
+  height: 300px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(41, 45, 62);
+  color: white;
+  align-items: center;
+  font-size: 20px;
+}
+.InputContentsInputText {
+  width: 98%;
+  height: 280px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(41, 45, 62);
+  color: white;
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid white;
+}
+.InputContentsBtn{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border: white;
+    color: green;
+}
+.InputContentsBtn2{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(2, 104, 2);
+    border: white;
+    color: white;
+    margin-left: 250px;
+}
+

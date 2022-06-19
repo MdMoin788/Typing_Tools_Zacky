@@ -1,0 +1,72 @@
+.parent{
+    width: 60%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+.CorectWords{
+
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.CorectWords1{
+
+    width: 50%;
+    height: auto;
+    border-right: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+
+    font-size: 25px;
+}
+.CorectWords2{
+
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+
+    font-size: 25px;
+}
+.CorectBorderpar{
+    width: 100%;
+   text-align: center;
+}
+.CorectBorder{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+.CorectBorder2{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    color: red;
+}
+.color{
+    color: black;
+}
+.color2{
+    color: red;
+}

@@ -1,0 +1,98 @@
+.ParentContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.ParentContainerNavbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(41, 45, 62);
+  top: 0;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+.ParentContainerContents {
+  margin-top: 76px;
+  width: 98%;
+  height: auto;
+
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+.LeftSideBar {
+  width: 20%;
+  height: auto;
+  color: white;
+  left: 0;
+
+  position: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+.LeftSideBarContents {
+  width: 95%;
+  height: 300px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items: center;
+  background-color: rgb(41, 45, 62);
+  color: white;
+}
+.RightSideBar {
+  width: 80%;
+  height: auto;
+  justify-content: right;
+}
+.LeftSideBarContentsChoose{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(41, 45, 62);
+ 
+}
+.LeftSideBarContentsChoose:hover{
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    outline: none;
+ 
+}
+.LeftSideBarContentsChooseSelect{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(41, 45, 62);
+    text-align: center;
+    font-size: 18px;
+
+}
+.LeftSideBarContentsChooseSelectBtn{
+    width: 60%;
+    height: 30px;
+    border: 1px solid rgb(41, 45, 62);
+    text-align: center;
+    font-size: 18px;
+
+}
+.LeftSideBarContentsChooseSelect:hover{
+    border: 1px solid rgb(41, 45, 62);
+    font-size: 19px;
+
+}
+.LeftSideBarContentsChooseSelectBtn:hover{
+    border: 1px solid rgb(41, 45, 62);
+    font-size: 19px;
+
+}
